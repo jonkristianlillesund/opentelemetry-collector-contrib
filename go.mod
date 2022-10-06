@@ -54,6 +54,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension v0.61.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/httpforwarder v0.61.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension v0.61.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver v0.61.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecstaskobserver v0.61.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/hostobserver v0.61.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver v0.61.0
@@ -772,6 +773,8 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaeg
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension => ./extension/oauth2clientauthextension
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer => ./extension/observer
+
+replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver => ./extension/observer/dockerobserver
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecstaskobserver => ./extension/observer/ecstaskobserver
 
